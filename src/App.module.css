@@ -13,6 +13,14 @@
     margin:40px auto;
 
 }
+.logo {
+    background-color: #227C9D;
+    display: inline-block;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 .container {

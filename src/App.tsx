@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import styles from './App.module.css'
-import logo from './assets/powered.png'
 import {GridItem} from './components/GridItem'
 import { levels, calculateImc, Level } from './helpers/imc'
 import lefArrowImage from './assets/leftarrow.png'
@@ -28,7 +27,7 @@ export function App() {
     <div className={styles.main}>
       <header>
         <div className={styles.headerContainer}>
-          <img src={logo} alt="" width={150} />
+          <h1 className={styles.logo}>IMC</h1>
         </div>
       </header>
       <div className={styles.container}>
