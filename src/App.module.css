@@ -3,6 +3,7 @@
     list-style: none;
     text-decoration: none;
     padding: 0 7px 0;
+    overflow-x:hidden ;
 }
 
 .main {
